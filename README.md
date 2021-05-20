@@ -1,6 +1,6 @@
 # More palettes for matplotlib and seaborn
 
-I couldn't find a source enabling useage of the new Tableau color palettes in python (unlike R's ggplot), so I decided to add them in myself. This package currently contains the regular palettes from Tableau. You can access these palettes in two formats: `matplotlib` colormaps and `seaborn` color palettes.
+I couldn't find a source enabling useage of the new [Tableau](https://www.tableau.com/) color palettes in python (unlike R's ggplot), so I decided to add them in myself. This package currently contains the regular palettes from Tableau. You can access these palettes in two formats: `matplotlib` colormaps and `seaborn` color palettes.
 
 ### Guide
 
