@@ -157,3 +157,8 @@ class classic_cyclic(_cm):
     """Classic tableau cyclic palette."""
     def __init__( self, path=os.path.join(os.path.dirname(__file__),'color_data/classic_cyclic') ):
         super().__init__(path)
+
+class IBM_color_blind(_cm):
+    """IBM Design - color blind safe palette."""
+    def __init__( self, path=os.path.join(os.path.dirname(__file__),'color_data/IBM_CBsafe') ):
+        super().__init__(path)
