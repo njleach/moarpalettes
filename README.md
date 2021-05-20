@@ -4,7 +4,7 @@ I couldn't find a source enabling useage of the new Tableau color palettes in py
 
 ### Guide
 
-To use, simply add `from moarpalettes import get_palette`. The individual palette objects are accessed as modules eg. `get_palette.tab10()`. To then return a matplotlib cmap or seaborn palette use either `get_palette.tab10().to_mpl_cmap()` or `get_palette.tab10().to_sn_palette()`. All the available palletes and acessors are shown in the image below.
+To use, simply add `from moarpalettes import get_palette` to the top of your script or notebook. The individual palette objects are accessed as modules eg. `get_palette.tab10()`. To then return a matplotlib cmap or seaborn palette use either `get_palette.tab10().to_mpl_cmap()` or `get_palette.tab10().to_sn_palette()`. All the available palletes and acessors are shown in the image below.
 
 ![All available palettes](palettes.png)
 
