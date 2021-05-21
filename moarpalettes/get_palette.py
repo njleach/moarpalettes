@@ -68,6 +68,11 @@ class summer(_cm):
     def __init__( self, path=os.path.join(os.path.dirname(__file__),'color_data/summer') ):
         super().__init__(path)
 
+class winter(_cm):
+    """New tableau winter palette."""
+    def __init__( self, path=os.path.join(os.path.dirname(__file__),'color_data/winter') ):
+        super().__init__(path)
+
 class gn_or_tl(_cm):
     """New tableau green-orange-teal palette."""
     def __init__( self, path=os.path.join(os.path.dirname(__file__),'color_data/green_orange_teal') ):
