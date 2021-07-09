@@ -167,3 +167,18 @@ class IBM_color_blind(_cm):
     """IBM Design - color blind safe palette."""
     def __init__( self, path=os.path.join(os.path.dirname(__file__),'color_data/IBM_CBsafe') ):
         super().__init__(path)
+
+class Petroff6(_cm):
+    """Matthew A. Petroff, 2021; https://arxiv.org/abs/2107.02270v1"""
+    def __init__( self, path=os.path.join(os.path.dirname(__file__),'color_data/Petroff6') ):
+        super().__init__(path)
+
+class Petroff8(_cm):
+    """Matthew A. Petroff, 2021; https://arxiv.org/abs/2107.02270v1"""
+    def __init__( self, path=os.path.join(os.path.dirname(__file__),'color_data/Petroff8') ):
+        super().__init__(path)
+
+class Petroff10(_cm):
+    """Matthew A. Petroff, 2021; https://arxiv.org/abs/2107.02270v1"""
+    def __init__( self, path=os.path.join(os.path.dirname(__file__),'color_data/Petroff10') ):
+        super().__init__(path)
