@@ -182,3 +182,8 @@ class Petroff10(_cm):
     """Matthew A. Petroff, 2021; https://arxiv.org/abs/2107.02270v1"""
     def __init__( self, path=os.path.join(os.path.dirname(__file__),'color_data/Petroff10') ):
         super().__init__(path)
+
+class esri_temperature(_cm):
+    """ESRI temperature palette: https://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/a-meaningful-temperature-palette/"""
+    def __init__( self, path=os.path.join(os.path.dirname(__file__),'color_data/esri_temperature') ):
+        super().__init__(path)
