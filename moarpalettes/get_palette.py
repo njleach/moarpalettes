@@ -187,3 +187,9 @@ class esri_temperature(_cm):
     """ESRI temperature palette: https://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/a-meaningful-temperature-palette/"""
     def __init__( self, path=os.path.join(os.path.dirname(__file__),'color_data/esri_temperature') ):
         super().__init__(path)
+
+class IPCC_scenario(_cm):
+    """IPCC color palettes as described in pyam: https://pyam-iamc.readthedocs.io/en/stable/tutorials/ipcc_colors.html
+       Order is as given on pyam url, starting from row 5 & ending row 21."""
+    def __init__( self, path=os.path.join(os.path.dirname(__file__),'color_data/ipcc_scenario') ):
+        super().__init__(path)
