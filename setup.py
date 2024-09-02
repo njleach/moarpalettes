@@ -9,4 +9,8 @@ setup(name='moarpalettes',
       install_requires=["matplotlib",
                         "seaborn",
       ],
+      include_package_data=True,
+      package_data={
+          "moarpalettes": ["color_data/*"],
+      }
       )
